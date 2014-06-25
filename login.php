@@ -48,13 +48,16 @@
           <h1><font>Bienvenido.</font></h1>
         </center>
 		   
-			<TABLE BORDER="5" bordercolor="#FFFFFF" CELLSPACING="15" WIDTH="150">   
+			<TABLE BORDER="8" bordercolor="#FFFFFF" CELLSPACING="15" WIDTH="150">   
 				<tr> 
 					<td>
 						<b>
 							<center>
-								<h2>Usuario</h2>
-								<input name="txtusuario" id="txtusuario" value="" type="text">
+									<form role="form">
+									  <div class="form-group">
+									    <label for="exampleInputEmail1">Usuario</label>
+									    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa tu usuario">
+									  </div>
 							</center>
 						</b>
 					</td>
@@ -63,8 +66,10 @@
 					<td>
 						<b>
 							<center>
-								<h2>Password</h2>
-								<input type="password" name="txtpass" id="txtpass" value="" id="Password">
+								<div class="form-group">
+								    <label for="exampleInputPassword1">Password</label>
+								    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+								</div>
 							</center>
 						</b>
 					</td>
@@ -72,7 +77,7 @@
 				<tr>
 					<td>
 						<center>
-							<input type="submit" name="Entrar"><right> <a href="registro.php">ingresar</a>
+							<button type="button" class="btn btn-primary" onClick="window.location.href='index.php'">Primary</button>
 						</center>
 					</td>
 				</tr>
@@ -80,8 +85,8 @@
 		</form>
 		</center>
 			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	    <script src="js/bootstrap.min.js"></script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		    <script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
