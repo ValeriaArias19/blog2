@@ -22,7 +22,7 @@ else
     <?php if ($tipo>=1) { ?> 
     <a href="login.php">Cerrar Sesion</a>| <a href=" registro.php ">Registrar</a> | <a href=" login.php ">Entrar</a> <?php } ?>
     <?php if ($tipo==0) { ?> 
-     <a href="login.php">Cerrar Sesion</a> 
+     <a href="login.php">Cerrar Sesion | </a> 
     <?php } ?>
      <?php if ($tipo==1) { ?> 
       | <a href=" usuarios.php ">Panel De Usuarios</a>
