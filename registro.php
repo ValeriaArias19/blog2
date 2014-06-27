@@ -60,6 +60,20 @@ if(isset($_POST['txtpass']))
 		 <tr><td><label>Password<input name="txtpass" type="password" id="password"  value=""></td></tr>
 		 <tr><td><input type="submit" value="Guardar"> </td></tr>
 	</form>
+	<tr><td><center><h1>Registrate Aqui<h1></center><br><?php echo $mensaje; ?></td></tr>
+		<tr><td><div class="form-group">
+		    <label for="exampleInputEmail1">Nombre</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ingresa tu nombre">
+		 </div></td></tr>		 
+		 <tr><td><div class="form-group">
+		    <label for="exampleInputEmail1">Usuario</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ingresa tu usuario">
+		 </div></td></tr>
+		 <tr><td><div class="form-group">
+		    <label for="exampleInputEmail1">password</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="password">
+		 </div></td></tr>
+		 <tr><td><input type="submit" value="Guardar"> </td></tr>
  </table>
  </center>
  	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
